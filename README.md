@@ -9,4 +9,4 @@ Usage
 
 Start the container and publish port 80 to some port on the host.
 
-docker run -d -p 80 quillinbob/docker-hello-world1
+docker run -d -p 80 quillinbob/docker-hello-world1.1
