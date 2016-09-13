@@ -1,12 +1,12 @@
-# docker-hello-world1
-NGINX Hello World Image - courtesy of Scott Baldwin
+# Hello Jerry! (from Uncle Leo and Newman)
+NGINX Hello World Image - but better
 
 Purpose
 
-This image is used to demonstrate a simple Hello World Docker image using NGINX. It serves up a single HTML page that shows the hostname of the container.
+This image is used to demonstrate a better Hello World Docker image using NGINX using Hello Jerry. It serves up a single HTML page that shows the hostname of the container.
 
 Usage
 
-Start the container and publish port 80 to some port on the host.
+Start the container and publish port 80 mapped to port 9090 on the host using:
 
-docker run -d -p 80 quillinbob/docker-hello-world1.1
+docker run -d -p=9090:80/tcp bobquillin/hello-jerry:latest
